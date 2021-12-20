@@ -2,6 +2,23 @@ version: "3.9"
 services:
    svc1:
      image: "abhi9929/angular-oodles"
-     ports: 
+     ports:
       - "80:80"
+   db:
+     image: mysql:5.7
+     restart: always
+     environment:
+          MYSQL_DATABASE: "db"
+          MYSQL_USER: "oodles"
+          MYSQL_PASSWORD: "oodles123"
+          MYSQL_ROOT_PASSWORD: "oodles123"
+     ports:
+      - "3306:3306"
+    # volumes:
+     #  - my-db:/var/lib/mysql
+
+      # Names our volume
+    # volumes:
+     #   my-db:
+      
 
