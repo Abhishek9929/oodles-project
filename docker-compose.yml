@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+   svc1:
+     image: "abhi9929/angular-oodles"
+     ports: 
+      - "80:80"
+

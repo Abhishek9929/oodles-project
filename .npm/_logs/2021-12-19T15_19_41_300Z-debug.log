@@ -1,0 +1,66 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+1 info using npm@8.1.2
+2 info using node@v16.13.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 11ms
+6 timing config:load:builtin Completed in 11ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 6ms
+10 timing config:load:file:/home/centos/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 25ms
+18 timing npm:load:configload Completed in 25ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing npm:load:setupLog Completed in 0ms
+21 timing config:load:flatten Completed in 4ms
+22 timing npm:load:cleanupLog Completed in 2ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 0ms
+25 timing npm:load Completed in 35ms
+26 timing arborist:ctor Completed in 1ms
+27 timing arborist:ctor Completed in 0ms
+28 timing idealTree:init Completed in 14ms
+29 timing idealTree:userRequests Completed in 0ms
+30 silly idealTree buildDeps
+31 timing idealTree:#root Completed in 0ms
+32 timing idealTree:buildDeps Completed in 1ms
+33 timing idealTree:fixDepFlags Completed in 1ms
+34 timing idealTree Completed in 16ms
+35 timing reify:loadTrees Completed in 17ms
+36 timing reify:diffTrees Completed in 1ms
+37 silly reify moves {}
+38 timing reify:retireShallow Completed in 0ms
+39 timing reify:createSparse Completed in 0ms
+40 timing reify:loadBundles Completed in 0ms
+41 silly audit report null
+42 timing reify:audit Completed in 1ms
+43 timing reify:unpack Completed in 0ms
+44 timing reify:unretire Completed in 0ms
+45 timing build:queue Completed in 0ms
+46 timing build:deps Completed in 1ms
+47 timing build Completed in 1ms
+48 timing reify:build Completed in 1ms
+49 timing reify:trash Completed in 0ms
+50 timing reify:save Completed in 3ms
+51 timing reify Completed in 75ms
+52 timing command:install Completed in 79ms
+53 verbose stack Error: ENOENT: no such file or directory, open '/home/centos/package.json'
+54 verbose cwd /home/centos
+55 verbose Linux 3.10.0-1062.12.1.el7.x86_64
+56 verbose argv "/usr/bin/node" "/usr/bin/npm" "install"
+57 verbose node v16.13.1
+58 verbose npm  v8.1.2
+59 error code ENOENT
+60 error syscall open
+61 error path /home/centos/package.json
+62 error errno -2
+63 error enoent ENOENT: no such file or directory, open '/home/centos/package.json'
+64 error enoent This is related to npm not being able to find a file.
+65 verbose exit -2
